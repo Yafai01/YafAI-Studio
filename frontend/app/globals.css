@@ -1,0 +1,44 @@
+:root {
+  --bg: #0b0d12;
+  --panel: #121622;
+  --border: #1f2437;
+  --text: #e6e9f2;
+  --muted: #9aa4bf;
+  --accent: #6c7cff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: Inter, system-ui, sans-serif;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+}
+
+textarea {
+  resize: none;
+  background: var(--panel);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px;
+  font-size: 15px;
+}
+
+pre {
+  background: #05070c;
+  color: #a5ffb0;
+  padding: 16px;
+  border-radius: 12px;
+  overflow-x: auto;
+}
